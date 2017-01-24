@@ -1,20 +1,85 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Boostrap Starter Page</title>
+    <title>Terra Vista Resturant</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-  </head>
+</head>
+
 <body>
 
-  <h1>Hello Coursera!</h1>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand ">
+                        <a href="index.html"><h1>Terra Vista Flower shop</h1></a>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+                    </div>
+
+                    <button type="button" class="navbar-toggle collapsed  " data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+                        <li>
+                            <a href="#menu-tile">
+
+                                <br class="visible-xs"> Rose</a>
+                        </li>
+                        <li>
+                            <a href="#specials-tile">
+
+                                <br class="visible-xs"> Tulip</a>
+                        </li>
+                        <li>
+                            <a href="#specials-tile3">
+
+                                <br class="visible-xs"> Jasmin</a>
+                        </li>
+
+                    </ul>
+                    <!-- #nav-list -->
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+    <div class="text-center initialism shop">
+        <h2><b>Our Flowers</b></h2></div>
+    <div id="home-tiles" class=" rose">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div id="menu-tile">
+                <h2>Rose</h2></div>
+            <p>The rose is a type of flowering shrub. Its name comes from the Latin word Rosa.[1] The flowers of the rose grow in many different colors, from the well-known red rose to yellow roses and sometimes white or purple roses. Roses belong to the family of plants called Rosaceae. All roses were originally wild and they come from several parts of the world, North America, Europe, northwest Africa and many parts of Asia and Oceania. There are over 100 different species of roses. The wild rose species can be grown in gardens, but most garden roses are cultivars, which have been chosen by people.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div id="specials-tile">
+                <h2>Tulip</h2></div>
+            <p>Tulips are spring-blooming perennials that grow from bulbs. Depending on the species, tulip plants can be between 4 inches (10 cm) and 28 inches (71 cm) high. The tulip's large flowers usually bloom on scapes with leaves in a rosette at ground level and a single flowering stalk arising from amongst the leaves.Tulip stems have few leaves. Larger species tend to have multiple leaves. Plants typically have two to six leaves, some species up to 12. The tulip's leaf is strap-shaped, with a waxy coating, and the leaves are alternately arranged on the stem; these fleshy blades are often bluish green in color.</p>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <div id="specials-tile3">
+                <h2>Jasmin</h2></div>
+            <p>Tagetes species vary in size from 0.1 to 2.2 m tall. Most species have pinnate green leaves. Blooms naturally occur in golden, orange, yellow, and white colors, often with maroon highlights. Floral heads are typically (1-) to 4–6 cm diameter, generally with both ray florets and disc florets. In horticulture, they tend to be planted as annuals, although the perennial species are gaining popularity. Depending on the species, Tagetes species grow well in almost any sort of soil. Most horticultural selections grow best in soil with good drainage, even though some cultivars are known to have good tolerance to drought.[5]</p>
+
+        </div>
+    </div>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
